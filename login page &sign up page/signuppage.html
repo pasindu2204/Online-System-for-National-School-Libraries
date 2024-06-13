@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up page</title>
+    <link rel="stylesheet" href="signuppage.css">
+</head>
+<body>
+    <header>
+        <div style="text-align: left;"><img src="logo.png" alt="Sunflower"></div> 
+        <h1><u>Create an Account</u></h1>
+    </header>
+    
+    <div class="signup-container">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label>*Who are you?</label>
+                <div class="radio-group">
+                    <label for="librarian"><input type="radio" id="librarian" name="user-type" value="librarian" required> Librarian</label>
+                    <label for="teacher"><input type="radio" id="teacher" name="user-type" value="teacher" required> Teacher</label>
+                    <label for="student"><input type="radio" id="student" name="user-type" value="student" required> Student</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="username">*Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="nic">*NIC or Index Number:</label>
+                <input type="text" id="nic" name="nic" required>
+            </div>
+            <div class="form-group">
+                <label for="email">*E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mobile">*Mobile No:</label>
+                <input type="tel" id="mobile" name="mobile" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">*Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label>*Gender?</label>
+                <div class="radio-group">
+                    <label for="male"><input type="radio" id="male" name="gender" value="male" required> Male</label>
+                    <label for="female"><input type="radio" id="female" name="gender" value="female" required> Female</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password">*New Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">*Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="btn-container">
+                <button type="submit" class="signup-btn">Submit</button>
+                <button type="button" class="cancel-btn">Cancel</button>
+            </div>
+            <div class="signup-link">
+                <span>Already have an account? <a href="loginpage.html">LOG IN</a></span>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

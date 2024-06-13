@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <header>
+        <div style="text-align: left;"><img src="logo.png" alt="Sunflower"></div> 
+        <h1><u>Welcome to Login page</u></h1>
+    </header>
+    
+    <div class="login-container">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+          
+            <div class="form-group">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Remember Me</label>
+            </div>
+           
+            <div class="btn-container">
+                <button type="submit" class="login-btn">Login</button>
+                <button type="button" class="cancel-btn">Cancel</button>
+            </div>
+        </form>
+        
+        <div class="signup-link">
+            <span>Don't have an account? <a href="signuppage.html">SIGN UP</a></span>
+        </div>
+    </div>
+</body>
+</html>
