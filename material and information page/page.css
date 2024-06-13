@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('pic7.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header {
+    background-color: rgb(59, 6, 6); 
+    color: white;
+    padding: 40px;
+    width: 100%;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    
+}
+h1 u {
+    margin-left: 100px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.up p {
+    text-align: left;
+    padding: 100px;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 400;
+}
+.right-image {
+    margin-left: 20px;
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+button {
+    width: 20%;
+    padding: 10px;
+    background-color: #020602;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+}
